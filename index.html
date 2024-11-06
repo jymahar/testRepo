@@ -3,23 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css"/>
-    <title>Redi:  week 4 homework</title>
+<link rel="stylesheet" href="styles.css"/>
+    <title>Event Page</title>
 </head>
-
 <body>
 
-    <div class="counter-container"></div>
-        <div class="counter-display" id="counter">0</div>
-        <div class="counter-buttons">
-            <button onclick="decrease()">−</button>
-            <button onclick="increase()">+</button>
-            <button id ="reset" onclick="reset()">reset</button>
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Navigation Bar -->
+        <div class="nav-bar">
+            <div class="logo">LOGO</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#event">Event</a></li>
+                <li><a href="#all-events">All Events</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
         </div>
+       
+    </header>
+
+     <!-- Hero Section -->
+<main>
+  <div class="about-container">
+    <div class="about-banner">
+     <img class=hero_image" src="image_1.png"
     </div>
-<script src="script.js">
-    
-</script>
-    
+     <div class="about-content">
+       <h2>About Us</h2>
+      <p><strong>HackYourFuture</strong> is a non-profit organization dedicated to providing individuals from disadvantaged backgrounds with the skills needed to enter the tech industry. Our mission is to empower those who face significant barriers to employment by offering them a comprehensive web development education. We believe that everyone deserves the opportunity to succeed, regardless of their background or circumstances. Our program is designed to bridge the gap between potential and opportunity, creating a pathway to meaningful employment.</p>
+
+      <p>Our team consists of passionate volunteers and professional developers who share a common goal: to make a lasting impact on the lives of our students. By fostering a supportive and inclusive learning environment, we ensure that each trainee receives the guidance and encouragement needed to thrive. We take pride in seeing our graduates succeed in the workforce, knowing all the hard work and dedication that plays a part in their journey towards a better future.</p>
+
+<p>At HackYourFuture, diversity and inclusion are at the heart of everything we do. We embrace the unique perspectives that each student brings to the table, and we are committed to creating a community where everyone feels valued. We create a space where people enjoy being and it is up to all involved in the community to bring their ideas, contributions and effort together and share this with the group. Each person plays an important role in shaping the HackYourFuture journey.</p>
+    </div>
+  </div>
+
+  <div class="event-container">
+    <h2>Event info</h2>    
+    <div class="event-content">
+      <!-- Left Section with Image -->
+      <div class="event-image">
+           <img src="image2.png" >
+        </div> 
+      <!-- Right Section with Details -->
+        <div class="event-details">
+          <div class="event-meta">
+            <p><span class="icon">🕒</span> 12:00</p>
+            <p><span class="icon">📍</span> Hovedgaden 1, Aarhus 8200</p>
+          </div>
+          
+          <h3>JavaScript Essentials</h3>
+            <p>Join us for a focused workshop on JavaScript fundamentals, perfect for beginners and those looking to enhance their skills. We’ll cover key concepts like variables, data types, closures, and asynchronous programming. This hands-on session will help you apply what you learn in real-world scenarios. Whether you’re building dynamic web applications or just starting out, this workshop is your opportunity to boost your JavaScript skills. Don’t miss out—secure your spot today and elevate your coding abilities.</p>
+            <button class="buy-ticket">Buy ticket</button>
+          </div>        
+         
+        </div>
+
+    </div>
+  </div>    
+  </div>
+
+    <div class="events-container">
+        <h2>All events</h2>
+        
+        <div class="events-grid">
+          <!-- Event Card 1 -->
+          <div class="event-card">
+            <img src="event1.png" alt="Intro Day Event 1">
+            <div class="card-content">
+              <h3>Intro Day</h3>
+              <p>Join HackYourFuture for a comprehensive program covering key domains including JavaScript, HTML/CSS, Git, and more.</p>
+              <div class="event-meta">
+                <p><span class="icon">🕒</span> 12:00</p>
+                <p><span class="icon">📅</span> 7 October 2024</p>
+                <p><span class="icon">📍</span> Hovedgaden 1, Aarhus 8200</p>
+              </div>
+              <button class="learn-more">Learn more</button>
+            </div>
+          </div>
+      
+          <!-- Event Card 2 -->
+          <div class="event-card">
+            <img src="event2.png" alt="Intro Day Event 2">
+            <div class="card-content">
+              <h3>Intro Day</h3>
+              <p>Join HackYourFuture for a comprehensive program covering key domains including JavaScript, HTML/CSS, Git, and more.</p>
+              <div class="event-meta">
+                <p><span class="icon">🕒</span> 12:00</p>
+                <p><span class="icon">📅</span> 7 October 2024</p>
+                <p><span class="icon">📍</span> Hovedgaden 1, Aarhus 8200</p>
+              </div>
+              <button class="learn-more">Learn more</button>
+            </div>
+          </div>
+      
+          <!-- Event Card 3 -->
+          <div class="event-card">
+            <img src="event3.png" alt="Intro Day Event 3">
+            <div class="card-content">
+              <h3>Intro Day</h3>
+              <p>Join HackYourFuture for a comprehensive program covering key domains including JavaScript, HTML/CSS, Git, and more.</p>
+              <div class="event-meta">
+                <p><span class="icon">🕒</span> 12:00</p>
+                <p><span class="icon">📅</span> 7 October 2024</p>
+                <p><span class="icon">📍</span> Hovedgaden 1, Aarhus 8200</p>
+              </div>
+              <button class="learn-more">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+</main>
+        <!-- Additional sections go here -->
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="footer-container">
+          <!-- Menu Section -->
+    <div class="footer-section">
+      <h4>MENU</h4>
+      <ul>
+          <li><a href="#Aboutus">About us</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">All events</a></li>
+          <li><a href="#">Contacts</a></li>
+      </ul>
+  </div>
+  
+  <!-- Event Section -->
+  <div class="footer-section">
+      <h4>EVENTS</h4>
+      <ul>
+          <li><a href="#">Innovate Conference 2024></li>
+          <li><a href="#">Global Health Summit</a></li>
+          <li><a href="#">Sustainable Future Expo</a></li>
+          <li><a href="#">Tech Trends Forum</a></li>
+          <li><a href="#">Creative Arts Festival</a></li>
+      </ul>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="footer-section">
+      <h4>ADDRESS</h4>
+      <p>Jensens Alle 45,2 th.</p>
+      <p>2100 Kobenhavn O</p>
+      <p>Danmark</p>
+  </div>
+  
+  <!-- Address Section -->
+  <div class="footer-section">
+      <h4>CONTACTS</h4>      
+      <p>eksample@falsemail.dk</p>
+      <p>+45 12 34 56 78</p>
+  </div>
+  <div class="footer-section">
+    <img src="map.png" alt="Map" >
+    </div>
+  </div>
+</div>
+<div class="copyright"><p>&copy; 2024 EVENTS | All rights reserved</p>
+</div>
+</footer>
 </body>
 </html>
+
